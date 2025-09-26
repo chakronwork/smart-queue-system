@@ -6,7 +6,7 @@ import io from 'socket.io-client';
 import toast from 'react-hot-toast';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const API_URL = 'http://localhost:3001';
+const API_URL = 'https://smart-queue-backend-gc5v.onrender.com';
 const socket = io(API_URL);
 
 function CustomerView() {
